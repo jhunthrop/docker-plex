@@ -21,6 +21,8 @@ docker pull timhaak/plex
 ---
 Instructions to run:
 
+Update the settings in .plexudpate to include your plex pass username and password if you would like to download the plexpass version. To download the public version, set the PUBLIC parameter to yes. 
+
 ```
 docker run -d -h *your_host_name* -v /*your_config_location*:/config -v /*your_videos_location*:/data -p 32400:32400  plex
 ```
