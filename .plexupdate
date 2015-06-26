@@ -1,0 +1,7 @@
+EMAIL=
+PASS=
+DOWNLOADDIR="."
+RELEASE="64-bit"
+#Change the PUBLIC setting to yes to download the public version instead of plex pass version
+PUBLIC=no
+AUTOINSTALL=yes
